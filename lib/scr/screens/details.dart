@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trevel_app/scr/models/places.dart';
+import 'package:bosquesac/scr/models/places.dart';
 
 class Details extends StatelessWidget {
   final Place place;
@@ -28,7 +28,7 @@ class Details extends StatelessWidget {
                     children: <Widget>[
                       Icon(Icons.calendar_today, color: Colors.grey, size: 20,),
                       SizedBox(width: 5,),
-                      Text('${place.days} days', style: TextStyle(color: Colors.grey))
+                      Text('${place.days} dias', style: TextStyle(color: Colors.grey))
                     ],
                   )
               ),
@@ -38,7 +38,7 @@ class Details extends StatelessWidget {
                   child: RichText(
                     text: TextSpan(children: [
                       TextSpan(text: '${place.place} \n', style: TextStyle(fontSize: 22, fontWeight: FontWeight.w700, color: Colors.black)),
-                      TextSpan(text: 'Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type')
+                      TextSpan(text: 'Situada en la costa de Queensland, es una maravilla natural única en el mundo, con una belleza sin igual. La Gran Barrera de Coral es el hogar de miles de especies de vida marina, incluyendo tortugas, delfines y tiburones, y es el lugar perfecto para los amantes del snorkel y el buceo.')
                     ], style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: Colors.grey)),
                   ),
                 ),
@@ -60,7 +60,7 @@ class Details extends StatelessWidget {
                       child: RichText(
                           text: TextSpan(
                             children: [
-                              TextSpan(text: 'Price\n', style: TextStyle(fontSize: 18)),
+                              TextSpan(text: 'Precio\n', style: TextStyle(fontSize: 18)),
                               TextSpan(text: '\$300', style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold))
 
                             ]
@@ -76,7 +76,7 @@ class Details extends StatelessWidget {
                           ),
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Text('Book a tour', style: TextStyle(color: Colors.pink, fontSize: 20),),
+                            child: Text('Libro de tours', style: TextStyle(color: Colors.pink, fontSize: 20),),
                           ),
                         ),
                       ),

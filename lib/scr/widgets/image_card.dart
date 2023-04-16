@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:trevel_app/scr/models/places.dart';
-import 'package:trevel_app/scr/screens/details.dart';
+import 'package:bosquesac/scr/models/places.dart';
+import 'package:bosquesac/scr/screens/details.dart';
 
 class ImageCard extends StatelessWidget {
   final String name;
@@ -96,7 +96,7 @@ class ImageCard extends StatelessWidget {
                           children: <Widget>[
                             Icon(Icons.calendar_today, color: Colors.white, size: 14,),
                         SizedBox(width: 5,),
-                        Text('$days days', style: TextStyle(color: Colors.white))
+                        Text('$days dias', style: TextStyle(color: Colors.white))
                           ],
                         )
                     ),

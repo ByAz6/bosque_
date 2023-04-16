@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:trevel_app/scr/widgets/icon_card.dart';
-import 'package:trevel_app/scr/widgets/images_cards.dart';
+import 'package:bosquesac/scr/widgets/icon_card.dart';
+import 'package:bosquesac/scr/widgets/images_cards.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -30,8 +30,8 @@ class _HomeState extends State<Home> {
                   padding: const EdgeInsets.only(left:8.0),
                   child: RichText(
                     text: TextSpan(children: [
-                      TextSpan(text: 'Hello, ', style: TextStyle(fontSize: 32, fontWeight: FontWeight.w700, color: Colors.pinkAccent)),
-                      TextSpan(text: 'what are you\nlooking for?')
+                      TextSpan(text: 'Hola, ', style: TextStyle(fontSize: 32, fontWeight: FontWeight.w700, color: Colors.pinkAccent)),
+                      TextSpan(text: 'Como \n te sientes hoy?')
                     ], style: TextStyle(fontSize: 32, fontWeight: FontWeight.w500, color: Colors.black)),
                   ),
                 ),
@@ -40,10 +40,10 @@ class _HomeState extends State<Home> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
-                  IconCard(iconData: Icons.home, text: 'Accomodation',),
-                  IconCard(iconData: Icons.directions_bike, text: 'Experiences',),
-                  IconCard(iconData: Icons.directions, text: 'Adventures',),
-                  IconCard(iconData: Icons.flight, text: 'Flights',),
+                  IconCard(iconData: Icons.home, text: 'Comodines',),
+                  IconCard(iconData: Icons.directions_bike, text: 'Experiencias',),
+                  IconCard(iconData: Icons.directions, text: 'Aventuras',),
+                  IconCard(iconData: Icons.flight, text: 'Aire libre',),
 
 
                 ],
@@ -54,7 +54,7 @@ class _HomeState extends State<Home> {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.only(left:8.0),
-                    child: Text('Best Experiences', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),),
+                    child: Text('Tus Mejores Experiencias', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),),
 
                   ),
 

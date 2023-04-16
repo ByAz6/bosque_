@@ -51,7 +51,7 @@ class Welcome extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.end,
             children: <Widget>[
               Text(
-                "Enjoy the world",
+                "Bienvenido al bosque!",
                 textScaleFactor: 1,
                 style: TextStyle(
                     fontSize: 36,
@@ -62,7 +62,7 @@ class Welcome extends StatelessWidget {
                 height: 5,
               ),
               Text(
-                "We will help you find the best \n experiences and adventures",
+                "Brian Vasquez Design",
                 style: TextStyle(
                     fontSize: 16,
                     color: Colors.white,
